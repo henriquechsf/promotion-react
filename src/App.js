@@ -1,6 +1,5 @@
 import React from 'react';
 import PromotionCard from './components/Promotion/Card/Card'
-import './App.css';
 
 const App = () => {
 
