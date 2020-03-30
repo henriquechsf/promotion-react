@@ -1,8 +1,7 @@
-import React from 'react';
-// usando o import absolut do create-react-app
-import PromotionCard from 'components/Promotion/Card/Card'
+import React from 'react'
+import PromotionCard from 'components/Promotion/Card/Card';
 
-const App = () => {
+const PagesPromotionSearch = () => {
 
     const promotion = {
         "id": 1,
@@ -19,8 +18,8 @@ const App = () => {
     }
 
     return (
+
         <div
-            className="App"
             style={{
                 maxWidth: 800,
                 margin: '30px auto',
@@ -29,7 +28,8 @@ const App = () => {
 
             <PromotionCard promotion={promotion} />
         </div>
-    );
+
+    )
 }
 
-export default App;
+export default PagesPromotionSearch;
